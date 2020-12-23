@@ -1,0 +1,25 @@
+.empContainer {
+  background-color: aquamarine;
+}
+.listLetters {
+  padding: 2px;
+  list-style: none;
+
+  /* background-color: blueviolet; */
+}
+.empLetters {
+  /* margin: 0.5em; */
+  width: 120px;
+  height: 120px;
+  margin: 2px;
+  font-weight: bold;
+  font-size: calc(24px + 16 * (100vw / 1280));
+
+  /* background-color: chartreuse; */
+}
+
+@media (max-width: 767px) {
+  .empLetters {
+    font-size: calc(24px + (16 + 16 * 0.7) * ((100vw 320px) / 1280));
+  }
+}
